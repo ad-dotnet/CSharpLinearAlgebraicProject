@@ -4,7 +4,7 @@ This repository contains a C# Visual Studio project implementing 25 Linear Algeb
 
 ## Download Contents
 
-The `cSharpLinearAlgebraicProject.rar` archive contains:
+The `cSharpLinearAlgebraicProject.zip` archive contains:
 
 - The complete C# Visual Studio project
 - Source code implementing the 25 LAMP equations
@@ -28,9 +28,9 @@ AD.Net is required when generating differentiated assemblies from the compiled D
 
 ## Using the Precompiled DLL with AD.Net
 
-1. Download `cSharpLinearAlgebraicProject.rar`.
+1. Download `cSharpLinearAlgebraicProject.zip`.
 2. Extract the archive.
-3. Locate the included `cSharpLinearAlgebraicProject.dll`.
+3. Locate the included `cSharp25LinearAlgebraFunctions.dll`.
 4. Open the [AD.Net interface](http://ad_net.stce.rwth-aachen.de).
 5. Upload the DLL.
 6. Select the method or methods to differentiate.
@@ -44,7 +44,7 @@ The included DLL is already compiled, so rebuilding the Visual Studio project is
 
 Users who want to inspect, modify, or rebuild the assembly can:
 
-1. Extract `cSharpLinearAlgebraicProject.rar`.
+1. Extract `cSharpLinearAlgebraicProject.zip`.
 2. Open the solution (`.sln`) in Visual Studio.
 3. Allow Visual Studio to restore the required NuGet packages.
 4. Select `Release` as the build configuration.
