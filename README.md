@@ -1,13 +1,13 @@
 # C# Linear Algebraic Project
 
-This repository contains a C# Visual Studio project implementing 25 Linear Algebraic Mapping Problems (LAMP). Its compiled DLL can be supplied as input to AD.Net to generate tangent and adjoint assemblies.
+This repository contains a C# Visual Studio project implementing 25 Linear Algebraic Mapping Problems (LAMP) in two formulations: direct linear solvers and explicit matrix inverses. Its compiled DLL can be supplied as input to AD.Net to generate tangent and adjoint assemblies.
 
 ## Download Contents
 
 The `cSharpLinearAlgebraicProject.zip` archive contains:
 
 - The complete C# Visual Studio project
-- Source code implementing the 25 LAMP equations
+- Source code implementing the 25 LAMP equations using both `Solve()` and `Inverse()` formulations
 - An already compiled DLL alongside the project
 - Another compiled copy inside the project's `bin` directory
 - The project files required to rebuild the assembly
@@ -64,7 +64,12 @@ AD.Net creates new differentiated assemblies and does not overwrite the original
 
 ## LAMP Equations
 
-The project contains 25 Linear Algebraic Mapping Problem equations from applications including:
+The project implements 25 Linear Algebraic Mapping Problems in two formulations, providing 50 input functions in total:
+
+- 25 functions using direct linear solvers
+- 25 equivalent functions using explicit matrix inverses
+
+The equations cover applications including:
 
 - Least-squares estimation
 - Matrix equations and inversion
